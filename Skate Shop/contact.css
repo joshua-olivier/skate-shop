@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Archivo', sans-serif;
+}
+
+/*Navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*list position Navbar*/
+li {
+    float: left;
+}
+
+/*list style*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin-left: 12pc;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.button1 {
+    padding: 10px 24px;
+    font-family: 'Archivo', sans-serif;
+}
